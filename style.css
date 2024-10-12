@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main{
+    padding: 2rem 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__titulo{
+    margin: 1rem;
+    font-size: 2.2rem;
+}
+
+
+.conetendorPlanes{
+    margin-top: 1.5rem ;
+    display: grid;
+    grid-template-columns: repeat(3 ,auto);
+    column-gap: 2.5rem;
+}
+
+.conetendorPlanes__plan{
+    border: 1.5px solid #CCCCCC;
+    max-width: 18.3rem;
+}
+
+.plan__contendor{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: .4rem;
+    border-bottom:1.5px solid #CCCCCC;
+}
+
+.plan__titulo{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.plan__precio{
+    margin-top: .7rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.precio__signo{
+    font-size:1.3rem ;
+    padding-top: .8rem;
+}
+
+.precio__valor{
+    font-size: 4.5rem;
+}
+
+.plan__mensualidad{
+    font-size: .7rem;
+}
+
+.plan__mensualidad--gratis{
+    visibility: hidden;
+}
+
+.plan__eslogan{
+    font-size: .85rem;
+    text-align: center;
+    height: 2.2rem;
+}
+
+.plan__validez,.plan__validez--pago{
+    font-size: .7rem;
+    margin: .6rem 0;
+}
+
+button{
+    background-color: #618D6E;
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+button:hover{
+background-color: #90AF99;
+}
+
+.plan__propiedades{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.propiedad{
+    list-style: none;
+    font-size: .9rem;
+    text-align: center;
+    display: flex;
+    column-gap: .5rem;
+    align-items: start;
+    justify-content: start;
+}
+
+
+.propiedad img{
+    width: 1rem;
+    height: 1rem;
+}
